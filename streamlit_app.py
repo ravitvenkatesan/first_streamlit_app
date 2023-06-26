@@ -1,10 +1,10 @@
 # created the main python file
 import streamlit
 streamlit.title('My Parents New Healthy Diner')
-print('Breakfast Menu')
-print('Omega 3 and Blueberry Oatmeal')
-print('Kale, Spinach and Rocket Smoothie')
-print('Hard-boiled Free-Range Egg')
+streamlit.header('Breakfast Menu')
+streamlit.text('Omega 3 and Blueberry Oatmeal')
+streamlit.text('Kale, Spinach and Rocket Smoothie')
+streamlit.text('Hard-boiled Free-Range Egg')
 
 #<html>
 #<head><title>Breakfast Menu</title></head>
