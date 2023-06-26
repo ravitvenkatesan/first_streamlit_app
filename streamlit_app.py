@@ -5,7 +5,7 @@ print('Breakfast Menu')
 print('Omega 3 and Blueberry Oatmeal')
 print('Kale, Spinach and Rocket Smoothie')
 print('Hard-boiled Free-Range Egg')
-'''
+"""
 <html>
 <head><title>Breakfast Menu</title></head>
 <body>
@@ -14,4 +14,4 @@ print('Hard-boiled Free-Range Egg')
   <p>Hard-boiled Free-Range Egg</p>
 </body>
 </html>
-'''
+"""
