@@ -1,7 +1,7 @@
 # created the main python file
 import streamlit
 streamlit.title('My Parents New Healthy Diner')
-print('''<html>
+print('<html>
 <head><title>Breakfast Menu</title></head>
 <body>
   <p>Omega 3 and Blueberry Oatmeal</p>
@@ -9,4 +9,4 @@ print('''<html>
   <p>Hard-boiled Free-Range Egg</p>
 </body>
 </html>
-''')
+')
