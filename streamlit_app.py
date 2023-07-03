@@ -20,11 +20,11 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 streamlit.dataframe(fruits_to_show)
 
 #New section to display Fruivice API response - just writes data to the screen
-#streamlit.header('Fruityvice Fruit Advice!')
-#import requests
-#fruityvice_response = requests.get("https://fruityvice.com/api/fruit" + "kiwi")
+streamlit.header('Fruityvice Fruit Advice!')
+import requests
+#fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
 #streamlit.text(fruityvice_response.json())
-
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
 #Normalize the json version of the response by flattening it 
 fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 #Convert the flattened json into a table of data 
